@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Random Post Button for Cobalt/Mercury/Radium Themes
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Brings you to a random post
 // @author       PhantomLuigi
 // @match        https://tbgforums.com/forums/index.php
@@ -31,8 +31,8 @@ function init_css(){
     return `
     <button id="random">Random Post</button>
     <style>
-        #random{position:absolute;top:101px;left:65%;height:45px;width:140px;}
-        #random{background:#565656;color:white;padding-top:10px;text-align:center;}
+        #random{position:absolute;top:76px;left:65%;height:25px;width:140px;}
+        #random{background:#565656;color:white;padding-top:0px;text-align:center;}
         #random{z-index:88888;}
     </style>
     `;
