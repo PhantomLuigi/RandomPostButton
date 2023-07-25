@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Random Post Button for Lithium Theme
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Brings you to a random post
 // @author       PhantomLuigi
 // @match        https://tbgforums.com/forums/index.php
