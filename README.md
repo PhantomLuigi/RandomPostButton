@@ -3,6 +3,8 @@ A Script for TamperMonkey that adds a button to https://tbgforums.com/forums/ an
 
 Add the script that corresponds with your theme to tampermonkey and a button labeled "Random Post" will appear on the home page of https://tbgforums.com/
 
+Each theme is set to no zoom in or out for the website, if you are zoomed in or out, it will be off pixel, don't think that really concerns anyone except me though
+
 # Cobalt/Mercury/Radium
 These theme shares one script for anyone that uses the Cobalt, Mercury or Radium Theme
 
