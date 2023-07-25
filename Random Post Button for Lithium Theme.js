@@ -32,7 +32,7 @@ function init_css(){
     return `
     <button id="random">Random Post</button>
     <style>
-        #random{position:absolute;top:76px;left:65%;height:25px;width:130px;}
+        #random{position:absolute;top:71px;left:65%;height:25px;width:130px;}
         #random{background:#6C8A3F;color:white;padding-top:0px;text-align:center;}
         #random{z-index:0;}
     </style>
