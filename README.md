@@ -15,6 +15,9 @@ For users of the Argonaut Theme
 # Earth
 For users of the Earth Theme
 
+# Fire
+For users of the Fire Theme
+
 # Lithium
 For users of the Lithium Theme
 
