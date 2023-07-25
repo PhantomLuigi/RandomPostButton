@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Random Post Button for Oxygen Theme
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Brings you to a random post
 // @author       PhantomLuigi
 // @match        https://tbgforums.com/forums/index.php
@@ -32,7 +32,7 @@ function init_css(){
     return `
     <button id="random">Random Post</button>
     <style>
-        #random{position:absolute;top:76px;left:65%;height:25px;width:130px;}
+        #random{position:absolute;top:71px;left:65%;height:25px;width:130px;}
         #random{background:#0066B9;color:white;padding-top:0px;text-align:center;}
         #random{z-index:0;}
     </style>
