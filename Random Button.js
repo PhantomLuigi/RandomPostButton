@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Random Post Button
+// @name         Random Post Button for Cobalt/Mercury/Radium Themes
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  Brings you to a random post
