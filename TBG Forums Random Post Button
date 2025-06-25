@@ -1,0 +1,38 @@
+// ==UserScript==
+// @name         TBG Forums Random Post Button
+// @namespace    http://tampermonkey.net/
+// @version      v25.06.2025
+// @description  Creates a button for the index page that transports you to a random post
+// @author       PhantomLuigi
+// @match        https://tbgforums.com/forums/index.php
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=tbgforums.com
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    const $ = document.querySelector.bind(document);
+    $('body').insertAdjacentHTML('beforeend', init_css() );
+    var min = 1
+    var max = 765000
+    var x = 0
+    setTimeout(() => {
+        //setTimeout needed to allow a few ms for the new Btn to be injected onto page
+        $('#randompost').addEventListener('click', () => {
+            x = Math.floor(Math.random() * (max - min) + min);
+            window.open("https://tbgforums.com/forums/index.php?msg=" + x);
+        });
+    },500);
+})();
+
+function init_css(){
+    return `
+    <button id="randompost">Random Post</button>
+    <style>
+        #randompost{position:absolute;top:123px;left:53.35%;height:26px;width:100px;}
+        #randompost{background:#565656;color:white;padding-top:1px;text-align:center;}
+        #randompost{z-index:88888;}
+    </style>
+    `;
+}
